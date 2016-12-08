@@ -5,3 +5,13 @@
 body{
     font-size: 62.5%;
 }
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    vertical-align: middle;
+}
+ul{
+    list-style: none;
+}

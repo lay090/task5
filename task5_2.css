@@ -1,10 +1,11 @@
 .top{
-    padding: 1% 5%;
+    padding: 1rem 5%;
     background-color: #5fc0cd;
 }
 .top span{
+    margin: 0 auto;
     height: 100%;
-    width: 90%;
+    width: 80%;
     display: inline-block;
     vertical-align: middle;
     text-align: center;
@@ -14,4 +15,141 @@
 }
 .top img{
     vertical-align: middle;
+}
+
+.main{
+    overflow: hidden;
+    padding: 1rem 1%;
+    width: 98%;
+    background-image: url("images/person_bg.png");
+    background-size: cover;
+}
+.main li{
+    padding: 1rem;
+    vertical-align: middle;
+}
+.main_img{
+    width: 20%;
+    float: left;
+    border-radius: 50%;
+}
+.infomation{
+    width: 60%;
+    float: left;
+    margin: 2rem 5%;
+    list-style: none;
+    vertical-align: middle;
+}
+
+.p_name{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5%;
+    font-size: 1.5rem;
+    color: white;
+}
+.p_age{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1rem;
+    color: white;
+}
+
+.p_adress{
+    list-style-image: url("images/person_icon.png");
+    font-size: 1rem;
+    color: white;
+}
+
+.sub{
+    padding: 2%;
+    border-bottom: 1px solid #c2c2c2;
+}
+#sub_p{
+    border-left: 2px solid #5fc0cd;
+    padding-left: 2%;
+    font-size: 1rem;
+    color: black;
+}
+.content{
+
+    margin: 0 2%;
+    padding: 2% 2%;
+}
+.content li{
+    display: block;
+    width: 96%;
+    padding: 1%;
+    border-bottom: 1px solid #c2c2c2;
+}
+#label1{
+    display: inline-block;
+    padding-right: 1rem;
+    vertical-align: middle;
+    font-size: 1rem;
+    color: black;
+    margin-left: 1%;
+    border-right: 1px solid #c2c2c2;
+}
+#label2{
+    display:inline-block;
+    vertical-align: middle;
+    font-size: 1rem;
+    color: black;
+    margin-left: 1%;
+}
+.detail{
+    display: inline-block;
+    padding:0 1rem;
+    vertical-align: middle;
+    font-size: 1rem;
+    color: #c2c2c2;
+    border-right: 1px solid #c2c2c2;
+}
+.answer1{
+    display: inline-block;
+    padding:0 1rem;
+    vertical-align: middle;
+    font-size: 1rem;
+    color: black;
+}
+.answer2{
+    display: inline-block;
+    padding:0 1rem;
+    vertical-align: middle;
+    font-size: 1rem;
+    color: red;
+}
+.answer3{
+    display: inline-block;
+    width: 50%;
+    padding:0 1rem;
+    vertical-align: middle;
+    font-size: 0.75rem;
+    color: black;
+}
+
+.bottom{
+    padding: 5% 2%;
+    text-align: center;
+}
+.message{
+    padding: 1% 2%;
+    margin: 1% 2%;
+    width: 40%;
+    border: 1px solid #5fc0cd;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #5fc0cd;
+    background: white;
+}
+.contract{
+    padding: 1% 2%;
+    margin: 1% 2%;
+    width: 40%;
+    border: 1px solid #5fc0cd;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    background: #5fc0cd;
 }
